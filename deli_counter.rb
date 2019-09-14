@@ -24,7 +24,7 @@ def now_serving(line)
     new = line.first
     puts "There is nobody waiting to be served!"
   else 
-    puts "Currently serving #{line}."
+    puts "Currently serving #{new}."
   end
 end
 

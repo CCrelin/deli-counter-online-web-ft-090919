@@ -3,7 +3,7 @@ def line(katz_deli)
   array =[]
   if katz_deli == []
     puts "The line is currently empty."
-  end
+  else
   katz_deli.each do |name|
   message =  " #{number}. #{name}"
   array << message

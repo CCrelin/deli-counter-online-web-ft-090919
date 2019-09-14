@@ -1,10 +1,11 @@
 def line(katz_deli)
   number = 1
-  message =[]
+  array =[]
   if katz_deli == []
     puts "The line is currently empty."
   katz_deli.each do |name|
-  array = "The line is currently: #{number}. #{name}"
+  message =  " #{number}. #{name}"
+  
   number += 1 
   end
 end

@@ -13,8 +13,10 @@ def line(katz_deli)
   end
 end
 
-def take_a_number( katz_deli )
-  katz_deli << "Ada"
+def take_a_number(katz_deli)
+  if katz_deli == [] do
+   katz_deli << "Ada"
+end
 end
 
 

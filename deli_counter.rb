@@ -14,8 +14,8 @@ def line(katz_deli)
 end
 
 def take_a_number(line, new_person)
-  if katz_deli == [] 
-   katz_deli << "Ada"
+  if line == [] 
+   line << new_person
   end
 end
 

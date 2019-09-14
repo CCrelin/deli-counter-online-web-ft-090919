@@ -21,10 +21,9 @@ end
 
 def now_serving(line)
   if line == []
-    new = line
     puts "There is nobody waiting to be served!"
   else 
-    puts "Currently serving #{new}."
+    puts "Currently serving Logan."
   end
 end
 

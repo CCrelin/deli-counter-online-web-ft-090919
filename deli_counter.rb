@@ -1,9 +1,8 @@
 def line(katz_deli)
-  message =[]
+  message = "The line is currently: #{}. #{}"
   if katz_deli == []
     puts "The line is currently empty."
- elsif katz_deli.lenght == >= 0
- puts "The line is currently: #{}"
+ else katz_deli.each do |names|
     
   end
 end

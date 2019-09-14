@@ -5,6 +5,7 @@ def line(katz_deli)
   katz_deli.each do |name|
   message = "The line is currently: #{number}. #{name}"
   number += 1 
+  puts message
   end
 end
 end

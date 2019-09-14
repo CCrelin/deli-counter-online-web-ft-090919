@@ -8,8 +8,9 @@ def line(katz_deli)
   message =  " #{number}. #{name}"
   array << message
   number += 1 
+    puts "The line is currently:#{array.join("")}" 
   end
 end
 
-puts "The line is currently:#{array.join("")}" 
-end
+
+

@@ -10,5 +10,5 @@ def line(katz_deli)
   number += 1 
   end
 
-puts "The line is currently: #{array.join("")}" 
+puts "The line is currently:#{array.join("")}" 
 end

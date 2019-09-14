@@ -3,7 +3,7 @@ def line(katz_deli)
   number = 1
   if katz_deli == []
     puts "The line is currently empty."
- else katz_deli.each do |names|
+ katz_deli.each do |names|
     puts message
     number +=1
   end

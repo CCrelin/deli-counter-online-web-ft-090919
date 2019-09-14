@@ -23,8 +23,8 @@ def now_serving(line)
   if line == []
     puts "There is nobody waiting to be served!"
   else 
-    line.drop
-    puts "Currently serving #{line.drop}."
+    line.drop(1)
+    puts "Currently serving #{line}."
   end
 end
 

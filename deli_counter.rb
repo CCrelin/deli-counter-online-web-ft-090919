@@ -9,6 +9,7 @@ def line(katz_deli)
   array << message
   number += 1 
   end
+end
 
 puts "The line is currently:#{array.join("")}" 
 end

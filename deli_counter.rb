@@ -8,6 +8,6 @@ def line(katz_deli)
   array << message
   number += 1 
   end
-array 
+puts array 
 end
 end

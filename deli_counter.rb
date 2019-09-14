@@ -3,6 +3,7 @@ def line(katz_deli)
   array =[]
   if katz_deli == []
     puts "The line is currently empty."
+  end
   katz_deli.each do |name|
   message =  " #{number}.#{name}"
   array << message
@@ -10,6 +11,4 @@ def line(katz_deli)
   end
 
 puts "The line is currently: #{array.join(" ")}" 
-
-end
 end

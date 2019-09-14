@@ -13,7 +13,7 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli)
+def take_a_number(line, new_person)
   if katz_deli == [] 
    katz_deli << "Ada"
   end
